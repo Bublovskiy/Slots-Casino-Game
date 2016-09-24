@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_for_low_and_win_and_score_popups"
+    android:onClick="dismissPopup"
+    android:gravity="center_vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView2"
+        android:src="@mipmap/ic_launcher"
+        />
+
+        <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView3"
+        android:src="@mipmap/ic_launcher"
+        />
+
+        <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView4"
+        android:src="@mipmap/ic_launcher"
+        />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  x5"
+        android:id="@+id/textViewx5"
+        android:textStyle="bold"
+        android:textSize="@dimen/textViewScores"
+        />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView5"
+        android:src="@mipmap/funny_guy"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView6"
+        android:src="@mipmap/funny_guy"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView7"
+        android:src="@mipmap/funny_guy"
+       />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  x4"
+        android:id="@+id/textViewx4"
+        android:textStyle="bold"
+        android:textSize="@dimen/textViewScores"
+       />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView10"
+        android:src="@mipmap/pirate_android"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView11"
+        android:src="@mipmap/pirate_android"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView12"
+        android:src="@mipmap/pirate_android"
+       />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  x3"
+        android:id="@+id/textViewx3"
+        android:textStyle="bold"
+        android:textSize="@dimen/textViewScores"
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView13"
+        android:src="@mipmap/ic_launcher"
+        />
+
+        <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView14"
+        android:src="@mipmap/funny_guy"
+        />
+
+        <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView15"
+        android:src="@mipmap/pirate_android"
+       />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  x2"
+        android:id="@+id/textViewx2"
+        android:textStyle="bold"
+        android:textSize="@dimen/textViewScores"
+       />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView16"
+        android:src="@mipmap/pirate_android"
+
+         />
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView17"
+        android:src="@mipmap/funny_guy"
+       />
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView18"
+        android:src="@mipmap/ic_launcher"
+      />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  x2"
+        android:id="@+id/textViewx22"
+        android:textStyle="bold"
+        android:textSize="@dimen/textViewScores"
+        />
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView8"
+        android:src="@mipmap/ic_launcher"
+       />
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView19"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView20"
+        android:src="@mipmap/pirate_android"
+       />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  x2"
+        android:id="@+id/textViewx222"
+        android:textStyle="bold"
+        android:textSize="@dimen/textViewScores"
+       />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView21"
+        android:src="@mipmap/pirate_android"
+       />
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView22"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/androidImagesWidthHeight"
+        android:layout_height="@dimen/androidImagesWidthHeight"
+        android:id="@+id/imageView23"
+        android:src="@mipmap/funny_guy"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="  x1"
+        android:id="@+id/textViewx1"
+        android:textStyle="bold"
+        android:textSize="@dimen/textViewScores"
+       />
+
+    </LinearLayout>
+
+</LinearLayout>

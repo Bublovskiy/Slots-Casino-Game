@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--user info-->
+    <item
+        android:id="@+id/userProfile"
+        android:title=""
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/itemLogInOut"
+        android:title=""
+        app:showAsAction="never"
+        />
+
+    <!-- Setting-->
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        app:showAsAction="never"
+        />
+
+    <!-- Chart-->
+    <item
+        android:id="@+id/chart"
+        android:title="@string/chart"
+        app:showAsAction="never"
+        />
+
+    <!-- Push up notifications on/off-->
+    <item
+        android:id="@+id/push"
+        android:title="@string/push"
+        app:showAsAction="never"
+        />
+
+    <!-- About-->
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        app:showAsAction="never"
+        />
+
+</menu>

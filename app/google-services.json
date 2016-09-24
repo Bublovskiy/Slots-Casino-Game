@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "331216298853",
+    "project_id": "firebase-casino"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331216298853:android:7e6c91080b287817",
+        "android_client_info": {
+          "package_name": "com.example.bublovskiy.project1_july"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331216298853-8o59id0d75bbf5q7ia96iu044jbjd52s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bublovskiy.project1_july",
+            "certificate_hash": "56717DFA81472EE424ACEC45BC17070A650202BF"
+          }
+        },
+        {
+          "client_id": "331216298853-uldib4bhn7osr2r0pqbu2skddqhq11ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApkNap_AeYmuIrpc7fFxpi4PdMY6IkRes"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

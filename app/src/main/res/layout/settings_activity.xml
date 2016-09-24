@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunset"
+    tools:context="com.example.bublovskiy.project1_july.SettingsActivity">
+
+    <EditText
+        android:layout_width="@dimen/editTextMinBidWidth"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:background="@drawable/background_for_getmoneytextfield"
+        android:id="@+id/editTextMinBid"
+        android:textSize="@dimen/editTextMinMaxBid"
+        android:gravity="center"
+        android:cursorVisible="false"
+        android:layout_below="@+id/textViewMinBid"
+        android:layout_alignStart="@+id/editTextMaxBid"
+        android:textColor="#0bfc0b"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="@dimen/editTextMinBidWidth"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:background="@drawable/background_for_getmoneytextfield"
+        android:id="@+id/editTextMaxBid"
+        android:textSize="@dimen/editTextMinMaxBid"
+        android:gravity="center"
+        android:cursorVisible="false"
+        android:layout_below="@+id/textViewMaxBid"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0bfc0b"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textViewMinBid"
+        android:id="@+id/textViewMinBid"
+        android:textSize="@dimen/textViewMinMaxSoundBid"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textViewMaxBid"
+        android:id="@+id/textViewMaxBid"
+        android:textSize="@dimen/textViewMinMaxSoundBid"
+        android:layout_below="@+id/editTextMinBid"
+        android:layout_alignStart="@+id/textViewMinBid"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewSoundOnOff"
+        android:text="Sound off"
+        android:textSize="@dimen/textViewMinMaxSoundBid"
+        android:onClick="soundOnOff"
+        android:layout_below="@+id/editTextMaxBid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textViewSettingsDone"
+        android:rotation="-50"
+        android:id="@+id/textViewSettingsDone"
+        android:textStyle="bold"
+        android:textSize="@dimen/textViewSettingsDoneCancel"
+        android:textColor="#faf8f8"
+        android:onClick="save"
+        android:layout_alignTop="@+id/textViewSettingsCancel"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textViewSettingsCancel"
+        android:rotation="50"
+        android:id="@+id/textViewSettingsCancel"
+        android:textStyle="bold"
+        android:textSize="@dimen/textViewSettingsDoneCancel"
+        android:textColor="#fefcfc"
+        android:onClick="back"
+        android:layout_marginBottom="23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="@dimen/imageViewFunnyGuy"
+        android:layout_height="@dimen/imageViewFunnyGuy"
+        android:id="@+id/imageViewFunnyGuy"
+        android:src="@mipmap/funny_guy"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/casino"
+    tools:context="com.example.bublovskiy.project1_july.MainActivity">
+
+    <ViewFlipper
+        android:layout_width="@dimen/viewFlippersWidth"
+        android:layout_height="@dimen/viewFlippersHeight"
+        android:id="@+id/viewFlipper1"
+        android:background="@mipmap/sunset_colors"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/viewFlipper2"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+                      />
+
+        <ImageView
+            android:src="@mipmap/funny_guy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+           />
+
+        <ImageView
+            android:src="@mipmap/pirate_android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+           />
+
+
+     </ViewFlipper>
+
+    <ViewFlipper
+        android:layout_width="@dimen/viewFlippersWidth"
+        android:layout_height="@dimen/viewFlippersHeight"
+        android:id="@+id/viewFlipper2"
+        android:background="@mipmap/sunset_colors"
+        android:layout_alignTop="@+id/viewFlipper1"
+        android:layout_centerHorizontal="true">
+
+
+        <ImageView
+            android:src="@mipmap/funny_guy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+
+
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+
+        <ImageView
+            android:src="@mipmap/pirate_android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+
+    </ViewFlipper>
+
+
+    <ViewFlipper
+        android:layout_width="@dimen/viewFlippersWidth"
+        android:layout_height="@dimen/viewFlippersHeight"
+        android:id="@+id/viewFlipper3"
+        android:background="@mipmap/sunset_colors"
+        android:layout_above="@+id/buttonBidIncrease"
+        android:layout_toEndOf="@+id/viewFlipper2">
+
+        <ImageView
+            android:src="@mipmap/pirate_android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+
+
+        <ImageView
+            android:src="@mipmap/funny_guy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+
+    </ViewFlipper>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textViewBalance"
+        android:id="@+id/textViewBalance"
+        android:textColor="#14f336"
+        android:layout_above="@+id/textViewBallanceScore"
+        android:textSize="@dimen/textViewBalance"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="@dimen/buttonUpDownBidWidth"
+        android:layout_height="@dimen/buttonUpDownBidHeight"
+        android:id="@+id/buttonBidIncrease"
+        android:layout_below="@+id/viewFlipper1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp"
+        android:onClick="increaseBid"
+        android:background="@mipmap/up"
+        />
+
+    <Button
+        android:layout_width="@dimen/buttonUpDownBidWidth"
+        android:layout_height="@dimen/buttonUpDownBidHeight"
+        android:id="@+id/buttonBidDecrease"
+        android:layout_alignTop="@+id/buttonBidIncrease"
+        android:layout_alignParentEnd="true"
+        android:onClick="decreaseBid"
+        android:background="@mipmap/down"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewBid"
+        android:textSize="@dimen/textViewBid"
+        android:layout_alignTop="@+id/buttonBidIncrease"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="@string/textViewBid" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/textViewPlaceBid"
+        android:id="@+id/textViewPlaceBid"
+        android:layout_below="@+id/viewFlipper1"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/textViewPlaceBid"
+        android:textStyle="bold"
+        android:textColor="#14f336"
+        android:singleLine="false"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/textViewBalanceScore"
+        android:id="@+id/textViewBallanceScore"
+        android:textSize="@dimen/textViewBalanceScore"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewInProgress"
+        android:src="@mipmap/circle"
+        android:onClick="go"
+        android:layout_below="@+id/textViewBid"
+        android:layout_alignEnd="@+id/viewFlipper2"
+        android:layout_above="@+id/textViewBalance"
+        android:layout_toEndOf="@+id/viewFlipper1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textViewOops"
+        android:id="@+id/textViewOops"
+        android:textStyle="bold"
+        android:textColor="#fcfafa"
+        android:textSize="@dimen/textViewOops"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/textViewExit"
+        android:rotation="50"
+        android:id="@+id/textViewExit"
+        android:textStyle="bold"
+        android:textSize="@dimen/textViewExitGet$"
+        android:textColor="#fcf9f9"
+        android:layout_alignTop="@+id/textViewBalance"
+        android:layout_alignStart="@+id/textViewBalance"
+        android:onClick="exit"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/textViewMoney"
+        android:rotation="-50"
+        android:id="@+id/textViewMoney"
+        android:textStyle="bold"
+        android:textSize="@dimen/textViewExitGet$"
+        android:textColor="#fcf9f9"
+        android:layout_alignTop="@+id/textViewBalance"
+        android:layout_alignEnd="@+id/buttonBidDecrease"
+        android:onClick="getMoney"/>
+
+</RelativeLayout>

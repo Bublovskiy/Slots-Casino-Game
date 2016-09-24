@@ -1,0 +1,45 @@
+<resources>
+
+    <!--sign in section-->
+    <dimen name="imageViewLeftArrow">100dp</dimen>
+    <dimen name="imageViewMinion">220dp</dimen>
+    <dimen name="textViewContinueAsGuest">45sp</dimen>
+    <dimen name="marginTop">10dp</dimen>
+
+    <!--main_activity.xml-->
+    <dimen name="viewFlippersWidth">100dp</dimen>
+    <dimen name="viewFlippersHeight">200dp</dimen>
+    <dimen name="buttonUpDownBidWidth">60dp</dimen>
+    <dimen name="buttonUpDownBidHeight">70dp</dimen>
+
+    <dimen name="textViewBalance">25sp</dimen>
+    <dimen name="textViewBid">60sp</dimen>
+    <dimen name="textViewPlaceBid">45sp</dimen>
+    <dimen name="textViewBalanceScore">25sp</dimen>
+    <dimen name="textViewOops">40sp</dimen>
+    <dimen name="textViewExitGet$">40sp</dimen>
+
+    <!--Java-->
+
+    <!--get_money_activity.xml-->
+    <dimen name="editTextGetMoney">50sp</dimen>
+    <dimen name="textViewCancelDone">40sp</dimen>
+
+    <!--popup_low_balance.xml -->
+    <dimen name="textViewLowBalanceMessage">50sp</dimen>
+
+    <!--popup_score_chart.xml -->
+    <dimen name="androidImagesWidthHeight">45dp</dimen>
+    <dimen name="textViewScores">35sp</dimen>
+
+    <!--popup_win.xml         -->
+    <dimen name="textViewNumber">60sp</dimen>
+
+    <!--settings_activity.xml-->
+    <dimen name="imageViewFunnyGuy">90dp</dimen>
+    <dimen name="editTextMinMaxBid">40sp</dimen>
+    <dimen name="textViewMinMaxSoundBid">40sp</dimen>
+    <dimen name="editTextMinBidWidth">80sp</dimen>
+    <dimen name="textViewSettingsDoneCancel">40sp</dimen>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="win1">5</integer>
+    <integer name="win2">4</integer>
+    <integer name="win3">3</integer>
+    <integer name="win4">2</integer>
+    <integer name="win5">2</integer>
+    <integer name="win6">2</integer>
+    <integer name="win7">1</integer>
+
+</resources>

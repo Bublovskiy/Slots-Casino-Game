@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--MainActivity java and xml-->
+
+    <!--Java-->
+    <integer name="popupWidth">1000</integer>
+    <integer name="popupHeight">1300</integer>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_for_low_and_win_and_score_popups"
+    android:onClick="dismissPopup"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/textViewLowBalanceMessage"
+        android:id="@+id/textViewLowBalanceMessage"
+        android:textSize="@dimen/textViewLowBalanceMessage"
+        android:textColor="#fcf9f9"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewHappy"
+        android:src="@mipmap/unhappy"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/textViewLowBalanceMessage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

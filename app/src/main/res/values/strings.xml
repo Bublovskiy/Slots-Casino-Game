@@ -1,0 +1,93 @@
+<resources>
+    <!--All strings for the English version-->
+
+    <!--Manifest file-->
+    <string name="label"></string>
+
+    <!--Sign in screen-->
+    <string name="textViewContinueAsGuest">Continue as Guest</string>
+    <string name="userNameByDefault">Guest</string>
+    <string name="cannotRetrieveInfo">We cannot retrieving some account information. Please try later</string>
+    <string name="signinCanceled">SignIn was canceled</string>
+    <string name="signinUnsuccessful">SignIn was unsuccessful</string>
+    <string name="emptyData">No user data was retrieved</string>
+    <string name="connectionFailed">Could not connect to Google Play Services. Please try later</string>
+
+    <!--MainActivity java and xml-->
+    <!--XML-->
+    <string name="textViewBalance">Balance</string>
+    <string name="textViewBid">0</string>
+    <string name="textViewPlaceBid">Place your bid</string>
+    <string name="textViewBalanceScore">0</string>
+    <string name="textViewOops">Ooooops!!!</string>
+    <string name="textViewExit">Exit</string>
+    <string name="textViewMoney">Get $</string>
+    <!--Java-->
+    <string name="notificationON">Notifications ON</string>
+    <string name="notificationOFF">Notifications OFF</string>
+            <string name="textAbout">
+                The Casino game was created by
+                Maxim Bublovskiy
+                bublowskiy@gmail.com
+                Vancouver 2016
+            </string>
+    <string name="toastPushupNotificationsOFF">Pushup notifications OFF</string>
+    <string name="toastPushupNotificationsON">Pushup notifications ON</string>
+
+    <!--Winning combinations-->
+    <!--IMPORTANT!!!: If changed then the layout of popup_score_chart.xml needs to be redesigned-->
+    <!--Column 1: 0 - Android logo   -->
+    <!--1 - Android guy    -->
+    <!--2 - Android pirate -->
+    <!--Column 2: 0 - Android guy    -->
+    <!--1 - Android logo   -->
+    <!--2 - Android pirate -->
+    <!--Column 3: 0 - Android pirate -->
+    <!--1 - Android guy    -->
+    <!--2 - Android logo   -->
+    <string name="win1">012</string>
+    <string name="win2">101</string>
+    <string name="win3">220</string>
+    <string name="win4">000</string>
+    <string name="win5">202</string>
+    <string name="win6">010</string>
+    <string name="win7">211</string>
+
+    <string name="toastMessageEmptyBalance">Only when balance is 0</string>
+    <!--Main type face for the App                                      -->
+    <!--IMPORTANT!!!: Make sure that the font exists with this path name-->
+    <string name="customTypeFace">fonts/CALVINN.TTF</string>
+
+    <string name="signOut">Sign out</string>
+    <string name="signedInWithGoogle">Sign In with Google+</string>
+
+    <!--GetMoneyActivity java and xml-->
+    <!--XML-->
+    <string name="textViewCancel">Cancel</string>
+    <string name="textViewDone">Done</string>
+    <string name="editTextGetMoney">$$$</string>
+    <!--Java-->
+    <string name="textForToast">Minimum is</string>
+
+    <!--SettingsActivity java and xml-->
+    <!--XML-->
+    <string name="textViewMinBid">Min Bid</string>
+    <string name="textViewMaxBid">Max Bid</string>
+    <string name="textViewSettingsDone">Done</string>
+    <string name="textViewSettingsCancel">Cancel</string>
+    <string name="textViewSoundOn">Sound on</string>
+    <!--Java-->
+    <string name="textViewSoundOff">Sound off</string>
+    <string name="emptyMinBidMessage">Min Bid was empty -(</string>
+    <string name="emptyMaxBidMessage">Max Bid was empty -(</string>
+
+    <!--popup_low_balance.xml-->
+    <string name="textViewLowBalanceMessage">Low balance -(</string>
+
+    <!--menu.xml-->
+    <string name="settings">Settings</string>
+    <string name="chart">Show score chart</string>
+    <string name="push">Notifications ON</string>
+    <string name="about">About</string>
+
+</resources>
